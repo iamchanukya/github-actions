@@ -1,0 +1,8 @@
+name: first-actions-practice
+on: push
+jobs:
+    first-job:
+        runs-on: ubuntu-20.04
+        steps:
+          - name: chekout code
+            uses: actions/checkout@v3
